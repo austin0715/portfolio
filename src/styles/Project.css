@@ -38,6 +38,10 @@
   background: rgb(42, 95, 58) center / contain no-repeat;
 }
 
+.media.sinterage {
+  background-image: url('/src/assets/gifs/sinterage.png');
+}
+
 .media.vivido {
   background-image: url('/src/assets/gifs/vivido.png');
 }
