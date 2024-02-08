@@ -20,7 +20,7 @@ const Greeting = () => {
       <div className="content flex-center">
         <div className="message">
           <h1 className="left-slide-in">
-            Hello, I'm <span className="heading-highlight">Tzu-Ming</span>.
+            Hello, I'm <span className="heading-highlight">Austin</span>.
           </h1>
           <h2 className="right-slide-in">I'm a Back-end Software Developer</h2>
         </div>

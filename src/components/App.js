@@ -188,19 +188,26 @@ const App = () => {
             </div>
             <ul>
               <li id="slide-1">
+                <Project name="SinterAge"
+                         description="SINTER AGE offers stunning, high-quality quartz surfaces that will brighten up any interior space."
+                         subDescription=""
+                         sourceCode=""
+                         liveApp="https:\/\/sinterage.ca" />
+              </li>
+              <li id="slide-2">
                 <Project name="Vivido"
                          description="Vivido is a SaaS that people can make short videos for digital marketing easily."
                          subDescription=""
                          sourceCode=""
                          liveApp="" />
               </li>
-              <li id="slide-2">
+              <li id="slide-3">
                 <Project name="Likr"
                          description="Intelligence Web Notification System which automatically
 recommend appropriate news, topics, and articles to users based on their
 browsing behavior via web notification."
                          sourceCode=""
-                         liveApp="" />
+                         liveApp="https:\/\/www.avividai.com/product-likr?lang=en" />
               </li>
             </ul>
           </section>
