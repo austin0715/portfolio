@@ -50,6 +50,10 @@
   background-image: url('/src/assets/gifs/likr.png');
 }
 
+.media.wet {
+  background-image: url('/src/assets/gifs/wet-ethical.png');
+}
+
 .media.shopping-cart {
   background-image: url('/src/assets/gifs/shopping-cart.gif');
 }
