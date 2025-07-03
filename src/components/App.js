@@ -153,9 +153,6 @@ const App = () => {
                 <Skill image={codeigniterLogo} name="CODEIGNITER" />
               </li>
               <li>
-                <Skill image={n8nLogo} name="N8N" />
-              </li>
-              <li>
                 <Skill image={wordpressLogo} name="WORDPRESS" />
               </li>
               <li>
@@ -182,6 +179,9 @@ const App = () => {
               <li>
                 <Skill image={javascriptLogo} name="JAVASCRIPT" />
               </li>
+              <li>
+                <Skill image={n8nLogo} name="N8N" />
+              </li>
             </ul>
           </section>
           <section id="projects" className="projects space-out hidden">
@@ -199,7 +199,7 @@ const App = () => {
                          liveApp="https:\/\/sinterage.ca" />
               </li>
               <li id="slide-2">
-                <Project name="WET Ethical Select Shop"
+                <Project name="WET-Ethical"
                          description="Every product we offer embraces the core values of 'respecting the environment, caring for people, and giving back to society.'"
                          subDescription=""
                          sourceCode=""
