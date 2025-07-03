@@ -135,6 +135,9 @@ const App = () => {
             <h2 className="headings-font">Skills</h2>
             <ul>
               <li>
+                <Skill image={n8nLogo} name="N8N" />
+              </li>
+              <li>
                 <Skill image={phpLogo} name="PHP" />
               </li>
               <li>
@@ -178,9 +181,6 @@ const App = () => {
               </li>
               <li>
                 <Skill image={javascriptLogo} name="JAVASCRIPT" />
-              </li>
-              <li>
-                <Skill image={n8nLogo} name="N8N" />
               </li>
             </ul>
           </section>
