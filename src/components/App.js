@@ -200,7 +200,7 @@ const App = () => {
               </li>
               <li id="slide-2">
                 <Project name="WET Ethical Select Shop"
-                         description="Every product we offer embraces the core values of \"respecting the environment, caring for people, and giving back to society.\""
+                         description="Every product we offer embraces the core values of 'respecting the environment, caring for people, and giving back to society.'"
                          subDescription=""
                          sourceCode=""
                          liveApp="https:\/\/www.wet-ethical.com" />
