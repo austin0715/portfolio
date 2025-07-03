@@ -43,6 +43,7 @@ import dockerLogo from '../assets/logos/docker_logo.svg';
 import laravelLogo from '../assets/logos/laravel_logo.svg';
 import codeigniterLogo from '../assets/logos/codeigniter_logo.svg';
 import wordpressLogo from '../assets/logos/wordpress_logo.svg';
+import n8nLogo from '../assets/logos/n8n_logo.svg';
 /***********/
 
 const App = () => {
@@ -117,10 +118,10 @@ const App = () => {
   return (
     <div className="home">
       <section className="home-greeting" id="home">
-        <Greeting />
+        <Greeting/>
       </section>
       <header className="primary-header">
-        <Navbar />
+        <Navbar/>
       </header>
       <main>
         <div className="particles-bg background">
@@ -128,7 +129,7 @@ const App = () => {
         </div>
         <div className="content flex-center">
           <section id="about" className="narrow space-out hidden">
-            <About />
+            <About/>
           </section>
           <section id="skills" className="skills space-out hidden">
             <h2 className="headings-font">Skills</h2>
@@ -150,6 +151,9 @@ const App = () => {
               </li>
               <li>
                 <Skill image={codeigniterLogo} name="CODEIGNITER" />
+              </li>
+              <li>
+                <Skill image={n8nLogo} name="N8N" />
               </li>
               <li>
                 <Skill image={wordpressLogo} name="WORDPRESS" />
@@ -195,13 +199,20 @@ const App = () => {
                          liveApp="https:\/\/sinterage.ca" />
               </li>
               <li id="slide-2">
+                <Project name="WET Ethical Select Shop"
+                         description="Every product we offer embraces the core values of \"respecting the environment, caring for people, and giving back to society.\""
+                         subDescription=""
+                         sourceCode=""
+                         liveApp="https:\/\/www.wet-ethical.com" />
+              </li>
+              <li id="slide-3">
                 <Project name="Vivido"
                          description="Vivido is a SaaS that people can make short videos for digital marketing easily."
                          subDescription=""
                          sourceCode=""
                          liveApp="" />
               </li>
-              <li id="slide-3">
+              <li id="slide-4">
                 <Project name="Likr"
                          description="Intelligence Web Notification System which automatically
 recommend appropriate news, topics, and articles to users based on their
@@ -212,7 +223,7 @@ browsing behavior via web notification."
             </ul>
           </section>
           <section id="contact" className="narrow space-out hidden">
-            <Contact />
+            <Contact/>
           </section>
           <a href="#about" className="back-to-top">
             <FontAwesomeIcon icon='arrow-circle-up' />
@@ -220,7 +231,7 @@ browsing behavior via web notification."
         </div>
       </main>
       <footer className="primary-footer">
-        <Footer />
+        <Footer/>
       </footer>
     </div>
   );

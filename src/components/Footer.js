@@ -20,7 +20,7 @@ const Footer = () => {
           </a>
         </li>
       </ul>
-      <p className="copyright">Austin &copy; 2024</p>
+      <p className="copyright">Austin &copy; 2025</p>
     </div>
   );
 };
